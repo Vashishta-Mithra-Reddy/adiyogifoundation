@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function AboutPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 md:px-8 py-8 flex flex-col gap-12">
+    <div className="max-w-5xl mx-auto px-4 md:px-8 flex flex-col gap-12 animate-in fade-in duration-700 text-pretty">
 
       {/* Page Title */}
       {/* <h1 className="text-3xl md:text-4xl font-bold text-center">About the Foundation</h1> */}
@@ -24,12 +24,12 @@ export default function AboutPage() {
 
       {/* About Us */}
       <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">About Us</h2>
-        <p className="text-muted-foreground leading-relaxed">
+        <h2 className="text-3xl font-semibold font-satoshi">About Us</h2>
+        <p className="text-lg text-muted-foreground leading-relaxed">
           Born from a blend of contemplation and commitment, Adiyogi Foundation brings together seekers, volunteers, educators, and visionaries. 
           We operate at the intersection of spirituality and social reform where rebuilding temples also means rebuilding lives.
         </p>
-        <p className="text-muted-foreground leading-relaxed">
+        <p className="text-lg text-muted-foreground leading-relaxed">
           Our work spans across spiritual well-being, environmental stewardship, educational equity, and humanitarian service — 
           each rooted in the yogic principle of inner clarity as the first act of service.
         </p>
@@ -37,17 +37,17 @@ export default function AboutPage() {
 
       {/* Purpose Section */}
       <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">Our Purpose</h2>
+        <h2 className="text-3xl font-semibold font-satoshi">Our Purpose</h2>
         <blockquote className="italic border-l-4 pl-4 text-muted-foreground">
           “We do not build temples; we rebuild purpose and restore lives.”
         </blockquote>
-        <p className="text-muted-foreground leading-relaxed">
+        <p className="text-lg text-muted-foreground leading-relaxed">
           Our projects are designed as pathways from confusion to clarity, from crisis to dharma. Every offering is a response to a deep modern need.
         </p>
 
         {/* Flowchart */}
-        <div className="space-y-4 mt-4">
-          <div className="flex flex-wrap justify-center gap-2 text-sm font-medium">
+        <div className="space-y-4 mt-12">
+          <div className="flex-row flex-wrap justify-center gap-6 space-y-8 text-lg  font-medium font-satoshi">
             <FlowRow items={["Confusion", "Stillness", "Clarity", "Purpose", "Dharma"]} />
             <FlowRow items={["Burnout", "Silence", "Reflection", "Redirection", "Service"]} />
             <FlowRow items={["Disconnection", "Inquiry", "Wisdom", "Belonging", "Impact"]} />
@@ -57,8 +57,8 @@ export default function AboutPage() {
 
       {/* Belief Statements */}
       <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">We Believe</h2>
-        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+        <h2 className="text-3xl font-semibold font-satoshi pb-2">We Believe</h2>
+        <ul className="list-disc list-inside text-muted-foreground text-lg space-y-2">
           <li>Spirituality is not an escape, but an anchor.</li>
           <li>Ancient truths are not outdated — they are underapplied.</li>
           <li>Everyone — believer or skeptic — can benefit from deeper self-awareness, community care, and conscious living.</li>
@@ -71,7 +71,7 @@ export default function AboutPage() {
 
       {/* Closing */}
       <section className="space-y-2">
-        <p className="text-muted-foreground leading-relaxed">
+        <p className="text-muted-foreground text-lg text-center underline font-bold leading-relaxed font-satoshi">
           Through ancient insights and modern tools, we empower clarity that lasts.
         </p>
       </section>
@@ -82,7 +82,7 @@ export default function AboutPage() {
 // Helper component for flowchart rows
 function FlowRow({ items }: { items: string[] }) {
   return (
-    <div className="flex flex-wrap justify-center items-center gap-2 text-sm text-foreground/70">
+    <div className="flex flex-wrap justify-center items-center gap-2 text-lg text-foreground/70">
       {items.map((item, index) => (
         <span key={index} className="flex items-center gap-1">
           {item}

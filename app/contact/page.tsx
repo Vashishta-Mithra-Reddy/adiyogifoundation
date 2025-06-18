@@ -98,7 +98,7 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="flex-1 w-full md:px-28 md:pt-2 md:pb-8 px-2 pt-0 pb-2">
+    <div className="flex-1 w-full md:px-28 md:pt-2 md:pb-8 px-2 pt-0 pb-2 py-8 animate-in fade-in duration-700">
       {/* Hero Section */}
       <div className="py-12 md:py-16 bg-accent/30 rounded-sm animate-slide-in-from-top duration-300">
         <div className="container mx-auto px-4 text-center">
