@@ -16,22 +16,22 @@ export default function Home() {
         </div>
         
         {/* Content Container with Proper Padding */}
-        <div className="relative min-h-[90vh] flex items-center justify-start px-4 pb-24 z-10">
+        <div className="relative min-h-[90vh] flex items-center justify-start px-0 md:px-4 pb-24 z-10">
           {/* Vignette Effect for 360 Blending */}
           <div className="absolute inset-0 bg-radial-gradient pointer-events-none"></div>
           
           {/* Hero Content */}
           <div className="max-w-6xl w-full mx-auto text-center z-10 pb-16 bg-radial from-yellow-100 via-yellow-50/20 to-transparent">
             <div className="animate-fade-in-up">
-              <span className="inline-block px-4 py-2 rounded-full bg-primary/20 backdrop-blur-sm text-primary font-medium mb-6 text-sm tracking-wide border font-satoshi border-primary/20 animate-fade-in">
+              <span className="inline-block px-4 py-2 rounded-full bg-primary/20 backdrop-blur-sm text-primary font-medium mb-6 text-sm tracking-wide border font-satoshi border-primary/20">
                 Adiyogi Foundation
               </span>
               
-              <h1 className="text-4xl md:text-6xl lg:text-6xl text-pretty font-bold text-foreground mb-6 tracking-tight leading-tight font-satoshi">
+              <h1 className="text-5xl md:text-6xl lg:text-6xl text-pretty font-bold text-foreground mb-6 tracking-tight leading-tight font-satoshi animate-in zoom-in-95 duration-1000">
               Rebuilding Purpose.<br></br> Restoring Dharma. <br></br>Reviving the Sacred
               </h1>
               
-              <p className="text-xl md:text-xl text-pretty text-foreground/80 max-w-3xl mx-auto mb-2 leading-relaxed">
+              <p className="text-md md:text-xl text-pretty text-foreground/80 max-w-3xl mx-auto mb-2 leading-relaxed animate-in zoom-in-95 duration-1000">
               Adiyogi Foundation is a space of remembrance a place where ancient insights meet modern lives. Throughinner inquiry, outer service, and sacred restoration, we guide individuals and communities backtoclarity,dignity, and dharma. We serve not to convert, but to co-create.
               </p>
               

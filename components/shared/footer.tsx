@@ -42,7 +42,7 @@ export default function Footer() {
       {/* Core Values */}
       <div className="flex flex-col items-center gap-3 font-satoshi">
         <h3 className="font-semibold text-sm text-foreground/80 tracking-wider">CORE VALUES</h3>
-        <div className="flex flex-wrap justify-center gap-2 text-xs text-foreground/70">
+        <div className="flex text-balance flex-wrap justify-center gap-2 text-xs text-foreground/70">
           {["Dharma", "Dignity", "Service", "Sustainability", "Synchronicity"].map((value) => (
             <span key={value} className="px-4 py-2 bg-foreground/5 rounded-full">
               {value}
