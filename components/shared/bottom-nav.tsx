@@ -9,7 +9,7 @@ export default function BottomNav() {
   
   const navigationLinks = [
     // { href: "/", label: "Home", icon: <Home  className="h-5 w-5" /> },
-    { href: "/misson", label: "Mission", icon: <Lightbulb className="h-5 w-5" /> },
+    { href: "/mission", label: "Mission", icon: <Lightbulb className="h-5 w-5" /> },
     { href: "/programs", label: "Programs", icon: <CalendarSearch className="h-5 w-5" /> },
     { href: "/temples", label: "Temples", icon: <School className="h-5 w-5" /> },
     { href: "/contribute", label: "Contribute", icon: <Layers className="h-5 w-5" /> },
