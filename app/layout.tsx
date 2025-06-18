@@ -40,7 +40,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${satoshi.variable} antialiased flex flex-col items-center`}
       >
         <Header />
-        <div className="px-6 md:px-20 py-80 md:py-80 pt-16 md:pt-12 pb-16 md:pb-20">
+        <div className="px-6 md:px-20 py-80 md:py-80 pt-4 md:pt-12 pb-16 md:pb-20">
             {children}
         </div>
         <Toaster position="top-center"/>

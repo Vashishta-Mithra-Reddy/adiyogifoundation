@@ -70,8 +70,8 @@ export default function AboutPage() {
       </section>
 
       {/* Closing */}
-      <section className="space-y-2">
-        <p className="text-muted-foreground text-lg text-center underline font-bold leading-relaxed font-satoshi">
+      <section className="space-y-2 py-8">
+        <p className="text-muted-foreground text-xl text-center underline font-bold leading-relaxed font-satoshi">
           Through ancient insights and modern tools, we empower clarity that lasts.
         </p>
       </section>
