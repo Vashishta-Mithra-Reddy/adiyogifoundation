@@ -32,7 +32,7 @@ export default function Home() {
               </h1>
               
               <p className="text-md md:text-xl text-pretty text-foreground/80 max-w-3xl mx-auto mb-2 leading-relaxed animate-in zoom-in-95 duration-1000">
-              Adiyogi Foundation is a space of remembrance a place where ancient insights meet modern lives. Throughinner inquiry, outer service, and sacred restoration, we guide individuals and communities backtoclarity,dignity, and dharma. We serve not to convert, but to co-create.
+              Adiyogi Foundation is a space of remembrance, a place where ancient insights meet modern lives. Through inner inquiry, outer service, and sacred restoration, we guide individuals and communities back to clarity, dignity, and dharma. <br></br><span className="text-foreground">We serve not to convert, but to co-create.</span>
               </p>
               
               {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
